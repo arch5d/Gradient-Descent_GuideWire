@@ -73,10 +73,10 @@ GUIDEWIRE_API_TOKEN=replace-me
 
 ### **3. Installation**
 `ash
-# Install Node dependencies
+#### Install Node dependencies
 npm install
 
-# Install Python dependencies
+#### Install Python dependencies
 pip install -r backend/python/requirements.txt
 `
 
