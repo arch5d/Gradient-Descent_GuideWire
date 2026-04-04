@@ -32,7 +32,8 @@ The repository includes:
 - **Domain Credibility:** Policy engine strictly blocks approvals for exclusions like war, pandemic, and 
 uclearHazard.
 - **Guidewire Integration Scaffold:** Backend seamlessly maps internal Claim Objects to a Guidewire-compatible InsuranceSuite structure.
-- **AI Logic Integration:** Backend queries a Python Scikit-Learn script to calculate and append an algorithmic iskScore.
+- **AI Logic Integration:** Backend queries a Python Scikit-Learn script to calculate and append an algorithmic 
+iskScore.
 
 ---
 
@@ -81,10 +82,10 @@ pip install -r backend/python/requirements.txt
 
 ### **4. Execution**
 `ash
-# Start Frontend and Backend simultaneously
+#### Start Frontend and Backend simultaneously
 npm run dev:full
 
-# Or start Backend only
+#### Or start Backend only
 npm run start:backend
 `
 
